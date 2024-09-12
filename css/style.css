@@ -1,0 +1,223 @@
+@charset "utf-8";
+/* CSS Document */
+/*全局控制*/
+body{
+    margin: 0;
+    font-size: 12px;
+    font-family: "微软雅黑", "宋体";
+    color: #685757;
+    width: 1900px
+}
+/*重置浏览器的默认样式*/h1,h2,h3,p,ul,li,dl,dt,dd,img,input{ margin: 0; padding: 0; list-style: none; border: 0}
+/*公共样式*/
+a:link,.footCon dd a:visited{color:antiquewhite; text-decoration: none; font-size: 16px; }
+a:hover{text-decoration: underline; }
+.blue:link,.blue:visited{color: aqua; text-decoration: none; }
+.blue:hover{text-decoration: underline; }
+/*header部分*/
+#header{
+    width: 1900px;
+    height: 31px;
+    margin: 0 auto;
+    padding-top: 1px;
+    background: url("../images/body_bg.png") repeat-x;
+    position: fixed;
+}
+.logo{width: 300px; height: 30px; float: left;margin-left: 500px}
+#top_nav{width: 1000px; height: 31px; line-height: 31px; margin: 0 auto; padding-left: 20px;}
+#top_nav li{ float: left; height: 31px;color: antiquewhite; font-size: 18px; margin-right: 30px;}
+#top_nav a:link, #top_nav a:visited{color: antiquewhite; text-decoration: none; }
+#top_nav a:hover{
+    color: aqua;
+    background-color: #000000;
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,166,0,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,166,0,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,1.00) 0%,rgba(255,166,0,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(255,166,0,1.00) 100%);
+}
+/*banner*/
+#bannerWrap{width: 1900px; height: 389px; background:#000C18 ; }
+.pic{width: 1900px; height: 389px; margin: 0 auto; }
+/*news*/
+#newsWrap{width: 1900px; height: 31px; background: url(../images/body_bg.png)repeat-x; }
+.news{width: 1900px; height: 20px; margin: 0 auto; color: antiquewhite; font-size: 16px; padding-top: 5px; }
+/*content*/
+#contentWrap{
+    width: 1900px;
+    overflow: hidden;
+    background: #2E2E2E;
+    height: 650px;
+}
+.content{ width: 1900px; height: 600px; margin: 0 auto; padding-top: 10px; }
+.content dl{
+    width: 600px;
+    height: 280px;
+    float: left;
+    border: dotted;
+    margin: 10px 16px 12px 10px;
+}
+.content dt{ width: 444px; float: left; }
+.content dd{ width: 140px; float: right; color: antiquewhite; font-size: 14px; padding: 8px 0 0 2px  }
+.content h2{ font-size: 16px; color:brown; }
+/*map*/
+#mapWrap{width: 1900px; overflow: auto; background: #2E2E2E; height: 3200px}
+.map{
+    width: 1900px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.map dl{
+    width: 600px;
+    height: 280px;
+    float: left;
+}
+.map dt{
+    float: left;
+}
+.map dd{
+    width: 600px;
+    float: left;
+    color: antiquewhite;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 0;
+    padding-left: 20px;
+    margin: 0 0 0 50px;
+    padding-bottom: 0
+}
+.map h2{ font-size: 16px; color:brown; }
+/*list*/
+#listWrap{ width: 1900px; overflow: hidden; background: #2E2E2E; }
+.list{ width: 1900px; margin: 0 auto; padding-top: 10px; }
+.list dl{ width: 600px; height: 800px; float: left; margin: 10px 16px 12px 10px;}
+.list dt{ width: 550px; float: left; }
+.list dd{
+    width: 500px;
+    float: left;
+    color: chocolate;
+    font-size: 14px;
+    border: double;
+    padding: 8px 0 0 2px
+}
+.list h2{ font-size: 16px; color:brown; }
+.list h3{ font-size: 15px; color: antiquewhite}
+/*note*/
+#note{width: 1900px; height: 31px; background: url(../images/body_bg.png)repeat-x; }
+.news{width: 1900px; height: 20px; margin: 0 auto; color: antiquewhite; font-size: 16px; padding-top: 5px; }
+/*footer*/
+#footWrap{ width: 1900px; height: 340px; background: #000000; }
+.footer{ width: 1900px; height: 310px; margin: 0 auto; background: #0D0C0C; }
+.footCon{ width: 100%; height: 200px; padding: 35px 0 0 100px;}
+.footCon dl{ width:350px; float:left; }
+.footCon dt{ height: 45px; color:aqua; font-weight: bold; font-size: 20px; }
+.footCon dd{ height: 25px; }
+.footCon dd a:link,.footCon dd a:visited{color:antiquewhite; text-decoration: none; font-size: 16px; }
+.footCon dd a:hover{text-decoration: underline; }
+.footer p{ height:30px; color:antiquewhite; font-size: 16px; padding: 15px 0 0 100px; }
+.footer p span{margin-right: 80px}
+.sidebar1 {
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+main {
+    overflow: auto;
+}
+main aside {
+    width: 20%;
+    padding: 15px;
+    min-height: 150px;
+    border-left-width: medium;
+    border-right-width: medium;
+    border-bottom: 3px solid #006699;
+    border-top-width: 5px;
+    font-size: 90%;
+    border-top-color: #069;
+    border-top-style: solid;
+}
+main >  section {
+    min-height: 600px;
+    width: 58%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0 1%;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+    float: left;
+}
+main section h1 {
+    margin: 0 0 5px 0;
+    color: #00000;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 35px;
+    width: 100%;
+}
+section article h2 {
+    color: #009900;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    width: 100%;
+}
+section article p {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-indent: 2em;
+    width: 100%;
+}
+.sidebar2 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    margin: 0 0 0.5em 0;
+    background-color: #ccffcc;
+}
+.sidebar2 figure {
+    margin: 0 0 10px 0;
+}
+.sidebar2 figure img {
+    margin: 0 auto;
+    display: block;
+}
+.sidebar2 figure figcaption {
+    margin: 5px 10px 15px 10px;
+    font-size: 90%;
+}
+
+.sidebar2 p {
+    margin: 0 0 0.5em 0;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+.sidebar1 blockquote {
+    margin: 0 0 20px 0;
+}
+.sidebar1 blockquote p {
+    padding: 1em;
+    margin: 0 0 5px 0;
+    text-indent: 2em;
+}
+.sidebar1 blockquote cite {
+    display: block;
+    font-style: italic;
+    font-size: 90%;
+    text-align: right;
+}
